@@ -410,16 +410,16 @@ function check() {
 var d = new Date();
 var time = d.getHours();
 if (time < 24) {
-  document.getElementById("title").innerHTML = "一个导航 | Good evening";
+  document.getElementById("title").innerHTML = "阿宅导航 | 晚上好";
 }
 if (time < 18) {
-  document.getElementById("title").innerHTML = "一个导航 | Good afternoon";
+  document.getElementById("title").innerHTML = "阿宅导航 | 下午好";
 }
 if (time < 12) {
-  document.getElementById("title").innerHTML = "一个导航 | Good morning";
+  document.getElementById("title").innerHTML = "阿宅导航 | 早上好";
 }
 if (time < 5) {
-  document.getElementById("title").innerHTML = "一个导航 | Stay up late again";
+  document.getElementById("title").innerHTML = "阿宅导航 | 夜深了，别熬夜了，要注意休息";
 }
 //title问候语结束
 
